@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+<body class="home">
+    <div id="particles-js"></div>
+    <nav>
+        <a href="add_member.html"><button class="menu">Add Members</button></a>
+        <a href="access_files.html"><button class="menu">Access Files</button></a>
+    </nav>
+    
+    <div class="upload-section">
+        <h2>Upload Document</h2>
+        <form method="post" enctype="multipart/form-data">
+            <input class="input" type="file" name="document" required>
+            <button type="submit" class="submit">Upload</button>
+        </form>
+    </div>
+    <script src="script.js"></script> 
+</body>
+</html>

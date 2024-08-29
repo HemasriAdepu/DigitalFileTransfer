@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Member</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <style>
+        /* Optional: Inline styles for table layout */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        td {
+            padding-right: 90px;
+            vertical-align: top;
+        }
+    </style>
+</head>
+<body>
+    <a href="home.html"><button class="back">Back</button></a>
+    
+    <div id="particles-js"></div>
+
+    <h1>Add a Member</h1>
+    <form class="add_member">
+        <table>
+            <tr>
+                <td><label for="first_name">First Name</label></td>
+                <td><input id="first_name" class="input" type="text" placeholder="First Name" required></td>
+
+                <td colspan="3">
+                    <h3 style="align-items: center;">Set three personal questions for security</h3>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="last_name">Last Name</label></td>
+                <td><input id="last_name" class="input" type="text" placeholder="Last Name" required></td>
+
+                <td><label for="question1">Question 1</label></td>
+                <td><input id="question1" class="input" type="text" placeholder="Question 1" required></td>
+
+                <td><label for="answer1">Answer 1</label></td>
+                <td><input id="answer1" class="input" type="text" placeholder="Answer 1" required></td>
+                
+            </tr>
+            <tr>
+                <td><label for="relation">Relation</label></td>
+                <td><input id="relation" class="input" type="text" placeholder="Relation" required></td>
+
+                <td><label for="question2">Question 2</label></td>
+                <td><input id="question2" class="input" type="text" placeholder="Question 2" required></td>
+
+                <td><label for="answer2">Answer 2</label></td>
+                <td><input id="answer2" class="input" type="text" placeholder="Answer 2" required></td>
+            </tr>
+            <tr>
+                <td><label for="phone_number">Phone Number</label></td>
+                <td><input id="phone_number" class="input" type="tel" placeholder="Phone Number" required></td>
+
+                <td><label for="question3">Question 3</label></td>
+                <td><input id="question3" class="input" type="text" placeholder="Question 3" required></td>
+
+                <td><label for="answer3">Answer 3</label></td>
+                <td><input id="answer3" class="input" type="text" placeholder="Answer 3" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input id="email" class="input" type="email" placeholder="Email" required></td>
+
+                <td colspan="3">
+                    <button type="submit">Add Member</button>
+                </td>
+            </tr>
+        </table>
+        <script src="./script.js"></script>
+    </form>
+</body>
+</html>
